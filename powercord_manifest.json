@@ -1,0 +1,8 @@
+{
+    "version": "1.0",
+    "name": "Tokyo Night",
+    "author": "Ashtrath",
+    "license": "MIT",
+    "theme": "tokyo-night.theme.css",
+    "description": "A Clean, Dark Discord Theme Based on Visual Code Studio."
+}
