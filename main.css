@@ -227,35 +227,50 @@
 
 /* Search Popouts */
 .container-3ayLPN {
-  background: var(--background-secondary) !important;
-  box-shadow: var(--background-tertiary) !important;
+  background-color: var(--background-floating) !important;
+  border-radius: 10px !important;
+  box-shadow: var(--elevation-high) !important;
 }
 .option-96V44q:after {
   display: none !important;
 }
 .option-96V44q.selected-rZcOL-,
 .input-2VB9rf {
-  background-color: var(--background-tertiary) !important;
+  background-color: var(--background-secondary-alt) !important;
 }
 .focused-2bY0OD {
-  background-color: var(--background-tertiary) !important;
+  background-color: var(--background-secondary-alt) !important;
 }
 .searchAnswer-3Dz2-q,
 .searchFilter-2ESiM3 {
   background-color: var(--background-primary) !important;
   color: var(--header-primary) !important;
 }
-.container-3ayLPN {
-  background-color: var(--background-tertiary-alt) !important;
-  border-radius: 10px !important;
-  box-shadow: var(--elevation-high) !important;
-}
 .theme-light .searchOption-zQ-1l6 .answer-1n6g43 {
   color: var(--header-secondary);
 }
-.theme-light .option-96V44q .filter-3Y_im-,
-.theme-light .resultsGroup-r_nuzN .header-2N-gMV {
+.theme-light .datePicker--XZbmJ .datePickerHint-3Q1Udw .hint-165cR4,
+.theme-light .resultsGroup-r_nuzN .searchLearnMore-3SQUAj a,
+.theme-light .resultsGroup-r_nuzN .plusIcon-v0BTrL,
+.theme-light .resultsGroup-r_nuzN .header-2N-gMV,
+.theme-light .option-96V44q .filter-3Y_im- {
   color: var(--header-primary);
+}
+
+/* Calendar */
+.calendarPicker-2yf6Ci .react-datepicker__navigation.react-datepicker__navigation--previous {
+  border: none !important;
+}
+.calendarPicker-2yf6Ci .react-datepicker__day {
+  border-top: 1px solid var(--background-modifier-accent) !important;
+  border-left: 1px solid var(--background-modifier-accent) !important;
+}
+.calendarPicker-2yf6Ci .react-datepicker__day--disabled, .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day--outside-month, .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--disabled, .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--disabled:hover {
+  background-color: var(--background-secondary-alt) !important;
+}
+.calendarPicker-2yf6Ci .react-datepicker__header,
+.calendarPicker-2yf6Ci .react-datepicker {
+  background-color: var(--background-floating) !important;
 }
 
 /* Status Picker */
@@ -440,7 +455,7 @@
 }
 
 /* Server List */
-.folderIconWrapper-1_bOZe[style="background-color: rgba(88, 101, 242, 0.4);"] {
+.folder-1hbNCn .folderIconWrapper-1_bOZe[style="background-color: rgba(88, 101, 242, 0.4);"] {
   background-color: var(--folder-color) !important;
 }
 .folder-1hbNCn:hover {
@@ -520,6 +535,9 @@
 .theme-light .lastPlayed-3bQ7Bo {
   color: #72767d !important;
 }
+.accountProfileCard-1XCH88 {
+  background-color: var(--background-secondary-alt);
+}
 .notDetected-33MY4s {
   background-color: var(--background-tertiary) !important;
 }
@@ -542,6 +560,9 @@
 .card-3AyPWq:hover {
   background: var(--background-floating);
 }
+.gameVerifiedIcon-2dGGa5 .flowerStar-1GeTsn > path {
+  fill: var(--brand-experiment);
+}
 
 /* Buttons Color */
 .bar-2Qqk5Z {
@@ -555,13 +576,15 @@
   color: #fff !important;
   background-color: #b466c2 !important;
 }
+.lookFilled-1Gx00P.colorGreen-29iAKY,
 .button-1YfofB.buttonColor-7qQbGO.buttonActive-3FrkXp,
 .button-1YfofB .buttonColor-7qQbGO.buttonActive-3FrkXp {
   color: #fff;
 }
+.buttons-2-EdE8 .lookFilled-1Gx00P.colorPrimary-3b3xI6,
 .colorable-1bkp8v.primaryDark-3mSFDl.active-1QRrIS,
 .colorable-1bkp8v.primaryDark-3mSFDl:hover {
-  background: var(--background-secondary);
+  background: var(--background-secondary) !important;
 }
 .colorable-1bkp8v.primaryDark-3mSFDl {
   background: var(--background-primary);
@@ -808,6 +831,12 @@
   align-items: center;
   background-color: var(--background-primary);
 }
+.bd-addon-modal-footer .bd-button {
+  background-color: var(--brand-experiment);
+}
+.bd-addon-modal-footer .bd-button:hover {
+  background-color: var(--brand-experiment-560) !important;
+}
 
 /* ~~~~		  		     Powercord Support							~~~~ */
 .powercord-toast-container {
@@ -866,7 +895,6 @@
   filter: contrast(50%);
   transition: filter 0.25s;
 }
-
 .theme-light .username-1A8OIy.desaturateUserColors-1gar-1.clickable-1bVtEA:hover,
 .theme-light .roleColor-rz2vM0.desaturateUserColors-1gar-1:hover {
   filter: contrast(100%);
