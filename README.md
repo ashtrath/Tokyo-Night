@@ -10,7 +10,7 @@
 
 ### BetterDiscord
 
-1. Download the theme file [here](https://betterdiscord.app)
+1. Download the theme file [here](https://betterdiscord.app/Download?id=439)
 2. Place it in the BetterDiscord themes folder
 3. Enable Tokyo Night in the themes tab
 
