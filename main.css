@@ -576,10 +576,9 @@
   color: #fff !important;
   background-color: #b466c2 !important;
 }
-.lookFilled-1Gx00P.colorGreen-29iAKY,
 .button-1YfofB.buttonColor-7qQbGO.buttonActive-3FrkXp,
 .button-1YfofB .buttonColor-7qQbGO.buttonActive-3FrkXp {
-  color: #fff;
+  color: #fff !important;
 }
 .buttons-2-EdE8 .lookFilled-1Gx00P.colorPrimary-3b3xI6,
 .colorable-1bkp8v.primaryDark-3mSFDl.active-1QRrIS,
@@ -594,9 +593,9 @@
   background-color: var(--background-floating) !important;
   box-shadow: inset 0 -4px 0 var(--background-secondary) !important;
 }
+.button-1YfofB.buttonColor-7qQbGO.buttonActive-3FrkXp, 
 .lookFilled-1Gx00P.colorGreen-29iAKY {
-  color: var(--header-primary);
-  background-color: var(--old-green);
+  color: var(--header-primary) !important;
 }
 .theme-light .lookFilled-1Gx00P.colorGreen-29iAKY {
   color: #fff;
@@ -901,13 +900,17 @@
 }
 
 /* Hide Some Things */
+.banner-2QYc2d:hover .premiumIconWrapper-1A-UH5 .textBadge-1iylP6,
 .banner-2QYc2d:hover .bannerOverlay-1uIerX,
 .banner-2QYc2d:hover .pencilIcon-XSi-VE,
 button[aria-label="Send a gift"],
 [href="/discovery"],
-.textBadge-1iylP6,
 .gifTag-kA7fXf {
   display: none;
+}
+
+.textBadge-1iylP6 {
+  display: block;
 }
 
 /* Replaces Message Links with "Jump to Message" */
