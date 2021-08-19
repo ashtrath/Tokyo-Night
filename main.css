@@ -890,6 +890,7 @@
   position: static;
   align-self: initial;
 }
+.panels-j1Uci_ > .powercord-spotify > .container-3baos1 > .flex-1xMQg5 > button:not(:last-of-type),
 .panels-j1Uci_ > .powercord-spotify > .container-3baos1 > .flex-1xMQg5 > button:last-of-type {
   position: static;
   transform: none;
@@ -898,6 +899,15 @@
 .panels-j1Uci_ > .powercord-spotify > .container-3baos1 > .nameTag-3uD-yy > .subtext-3CDbHg {
   font-size: 12px;
   margin-left: 0;
+}
+.fa-forward, .fa-backward{
+  transition-duration: 0.3s;
+}
+button:hover .fa-forward:hover{
+  transform: translate(2px);
+}
+button:hover .fa-backward:hover{
+  transform: translate(-2px);
 }
 
 /* ----------------------------- END OF THEME ----------------------------- */
