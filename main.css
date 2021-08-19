@@ -593,11 +593,15 @@
   background-color: var(--background-floating) !important;
   box-shadow: inset 0 -4px 0 var(--background-secondary) !important;
 }
-.button-1YfofB.buttonColor-7qQbGO.buttonActive-3FrkXp, 
-.lookFilled-1Gx00P.colorGreen-29iAKY {
+.button-1YfofB.buttonColor-7qQbGO.buttonActive-3FrkXp,
+.lookFilled-1Gx00P.colorYellow-2JqYwt,
+.lookFilled-1Gx00P.colorGreen-29iAKY,
+.lookFilled-1Gx00P.colorRed-1TFJan {
   color: var(--header-primary) !important;
 }
-.theme-light .lookFilled-1Gx00P.colorGreen-29iAKY {
+.theme-light .lookFilled-1Gx00P.colorYellow-2JqYwt,
+.theme-light .lookFilled-1Gx00P.colorGreen-29iAKY,
+.theme-light .lookFilled-1Gx00P.colorRed-1TFJan {
   color: #fff;
 }
 
