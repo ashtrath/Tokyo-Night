@@ -846,6 +846,10 @@
   --toast-border: transparent;
 }
 
+.modal-yWgWj- {
+	background-color: var(--background-primary) !important;
+}
+
 /* ~~~~		  		 Plugin Support							~~~~ */
 
 /* Better Codeblocks */
@@ -864,6 +868,32 @@
 }
 .tooltipPointer-3ZfirK {
   border-top-color: var(--background-floating) !important;
+}
+
+/* Powercord Spotify Modal */
+.panels-j1Uci_ > .powercord-spotify > .container-3baos1,
+.spotify-tooltip > .tooltipContent-bqVLWK > .nameTag-3uD-yy,
+.panels-j1Uci_ > .powercord-spotify > .container-3baos1 > .flex-1xMQg5,
+.panels-j1Uci_ > .powercord-spotify > .container-3baos1 > .avatarWrapper-2yR4wp {
+  position: static;
+  flex-direction: initial;
+}
+.panels-j1Uci_ > .powercord-spotify > .container-3baos1:before {
+  content: none;
+}
+.panels-j1Uci_ > .powercord-spotify > .container-3baos1 > .nameTag-3uD-yy {
+  display: block;
+  position: static;
+  align-self: initial;
+}
+.panels-j1Uci_ > .powercord-spotify > .container-3baos1 > .flex-1xMQg5 > button:last-of-type {
+  position: static;
+  transform: none;
+  align-self: initial;
+}
+.panels-j1Uci_ > .powercord-spotify > .container-3baos1 > .nameTag-3uD-yy > .subtext-3CDbHg {
+  font-size: 12px;
+  margin-left: 0;
 }
 
 /* ----------------------------- END OF THEME ----------------------------- */
@@ -908,9 +938,14 @@ button[aria-label="Send a gift"],
 .gifTag-kA7fXf {
   display: none;
 }
-
 .textBadge-1iylP6 {
   display: block;
+}
+
+/* Fix Fullscreen bar issue */
+.layer-3QrUeG > .container-2lgZY8 > .wrapper-3NnKdC.hidden-3dXt4k + .base-3dtUhz {
+    overflow: hidden !important;
+    max-width: none !important;
 }
 
 /* Replaces Message Links with "Jump to Message" */
