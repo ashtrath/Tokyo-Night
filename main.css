@@ -214,6 +214,17 @@
   background-color: var(--accent-color);
 }
 
+/* Fix some svg color */
+svg[fill="hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%)"] {
+  fill: var(--text-positive);
+}
+svg[fill="hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%)"] {
+  fill: var(--text-warning);
+}
+svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
+  fill: var(--text-danger);
+}
+
 /* ~~~~		  		Messages							~~~~ */
 
 /* Text */
