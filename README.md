@@ -2,7 +2,7 @@
 
 ![](https://github.com/Dyzean/Tokyo-Night/blob/main/assets/preview.png?raw=true)
 
-<p align="center">A Clean, Dark Discord Theme Based on Visual Code Studio.</p>
+<p align="center">A Clean, Dark Discord Theme Based on [Tokyo Night scheme](https://github.com/enkia/tokyo-night-vscode-theme).</p>
 
 ---
 

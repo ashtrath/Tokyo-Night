@@ -1,0 +1,106 @@
+/* User Menu, Credit to Strencher#1044 for this */
+.guilds-2JjMmN {
+  height: calc(100% - 128px);
+}
+.guilds-2JjMmN .scroller-3X7KbA {
+  background: var(--background-tertiary);
+}
+
+/* added :not(.powercord-spotify) so it doesn't break powercord spotify panel plugin.
+  (make a issue or pr if you found a better way to do this.) */
+
+:not(.powercord-spotify) > .container-YkUktl {
+  position: absolute;
+  left: -62px;
+  bottom: 39px;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+}
+:not(.powercord-spotify) > .container-YkUktl::before {
+  content: "";
+  display: block;
+  position: fixed;
+  width: 72px;
+  height: 128px;
+  bottom: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 1;
+  background: var(--background-tertiary);
+}
+.button-12Fmur {
+  color: var(--interactive-normal) !important;
+  transition: color 150ms ease-in;
+}
+.button-12Fmur:hover {
+  color: var(--interactive-hover) !important;
+}
+.title-338goq {
+  color: var(--accent-color);
+  font-weight: 650;
+}
+.sidebar-1tnWFu {
+  overflow: visible !important;
+}
+.base-2jDfDU {
+  overflow: visible !important;
+  max-width: calc(100% - 72px);
+}
+.panels-3wFtMD {
+  background-color: var(--background-tertiary);
+  padding-bottom: 25px;
+}
+.panel-j1Uci_ .powercord-spotify {
+	padding-bottom: none;
+}
+:not(.powercord-spotify) > .container-YkUktl .nameTag-sc-gpq {
+  position: absolute;
+  bottom: -37px;
+  align-items: center;
+  display: flex;
+  left: 5px;
+  z-index: 2;
+}
+:not(.powercord-spotify) > .container-YkUktl .flex-2S1XBF {
+  left: 140px;
+  bottom: -64px;
+  position: relative;
+}
+:not(.powercord-spotify) > .container-YkUktl .flex-2S1XBF button:last-of-type {
+  position: fixed;
+  bottom: 38px;
+  transform: scale(1.7);
+  left: 21px;
+  z-index: 2;
+}
+:not(.powercord-spotify) > .container-YkUktl .flex-2S1XBF button:last-of-type:hover {
+  background: none;
+}
+:not(.powercord-spotify) > .container-YkUktl .flex-2S1XBF button:not(:last-of-type) {
+  background: none;
+  left: 60px;
+  transform: scale(0.7);
+}
+:not(.powercord-spotify) > .container-YkUktl .avatarWrapper-1B9FTW {
+  position: absolute;
+  left: 10px;
+  z-index: 2;
+  top: -25px;
+}
+:not(.powercord-spotify) > .container-YkUktl .subtext-2HDqJ7 {
+  font-size: 14px;
+  margin-left: 3px;
+}
+:not(.powercord-spotify) > .container-YkUktl .hoverRoll-2XwpoF {
+  width: 140px;
+}
+:not(.powercord-spotify) > .container-YkUktl .hovered-20u3oh {
+  text-overflow: unset;
+}
+
+/* Fix Status picker position */
+#status-picker {
+  bottom: -8em;
+  left: 4.3em;
+}

@@ -1,0 +1,43 @@
+:root {
+  --avatar-radius: 5px;
+}
+
+.avatar-2Vndt_,
+.userInfo-2WpsYG .avatar-2MSPKk svg foreignObject, /* Friend list avatars */
+.avatar-6qzftW svg:not(.linkButtonIcon-7rsZcu) foreignObject, /* Server members avatars */
+.avatar-2Vndt_ foreignObject, /* User card avatar */
+.wrapper-1VLyxH svg foreignObject,
+.avatarHint-k7pYop foreignObject,
+.container-YkUktl .avatar-1EWyVD svg foreignObject, /* Status bar avatar */
+.headerAvatar-GgCKcl svg foreignObject, /* Active now avatars */
+.avatar-3QF_VA svg foreignObject {
+  /* Profile modal avatar */
+  mask: none;
+  border-radius: var(--avatar-radius);
+}
+.wrapper-1VLyxH, /* user popout */
+.avatar-2Vndt_,
+.avatar-2e8lTP.clickable-31pE3P, /* Chat avatar */
+.repliedMessage-3Z6XBG .replyAvatar-sHd2sU {
+  /* Replying to avatar */
+  border-radius: var(--avatar-radius);
+}
+
+/* Status Pill */
+.wrapper-1VLyxH > svg > rect,
+.avatar-3mTjvZ > .mask-1FEkla > rect,
+.avatar-2Vndt_ > svg > rect,
+.avatar-3QF_VA > svg > rect,
+.listAvatar-2bU5Uh > svg > rect {
+  rx: var(--avatar-radius);
+  mask: none;
+  stroke: var(--background-floating);
+  stroke-width: 3px;
+}
+.avatar-3mTjvZ > .mask-1FEkla > rect,
+.avatar-2Vndt_ > svg > rect,
+.avatar-3QF_VA > svg > rect,
+.listAvatar-2bU5Uh > svg > rect {
+  width: 20px !important;
+  height: 20px !important;
+}

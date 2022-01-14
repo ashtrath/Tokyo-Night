@@ -1,0 +1,49 @@
+/* Mac Like Titlebar */
+:root {
+  --close-button-color: #e92a2ade;
+  --maximize-button-color: #f7bc1bde;
+  --minimize-button-color: #12db33de;
+  --button-position: row;
+}
+
+.withFrame-2dL45i {
+  margin: 0;
+  height: 24px;
+}
+.typeWindows-2-g3UY {
+  flex-direction: var(--button-position);
+  margin-left: 3px !important;
+}
+.withFrame-2dL45i .winButton-3UMjdg > svg {
+  display: none;
+}
+.withFrame-2dL45i .winButton-3UMjdg:hover {
+  background-color: var(--background-teritary);
+}
+.withFrame-2dL45i .winButton-3UMjdg {
+  pointer-events: none;
+  margin-left: -4px;
+  top: 0;
+}
+.withFrame-2dL45i .winButton-3UMjdg::after {
+  content: "";
+  padding: 7px;
+  border-radius: 50px;
+  pointer-events: fill;
+  transition-duration: 200ms;
+}
+.withFrame-2dL45i .winButtonClose-3Q8ZH5::after {
+  background-color: var(--close-button-color) !important;
+  margin-top: 0px;
+}
+.withFrame-2dL45i .winButtonMinMax-3RsPUg:nth-child(3)::after {
+  background-color: var(--maximize-button-color) !important;
+  margin-top: 0px;
+}
+.withFrame-2dL45i .winButtonMinMax-3RsPUg:nth-child(4):after {
+  background-color: var(--minimize-button-color) !important;
+  margin-top: 0px;
+}
+.typeWindows-2-g3UY > div:hover::after {
+  transform: scale(1.1);
+}

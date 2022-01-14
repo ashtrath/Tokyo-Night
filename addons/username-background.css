@@ -1,0 +1,38 @@
+/* Compact Mode */
+.compact-2Nkcau .headerText-2z4IhQ > .username-h_Y3Us::before {
+  content: ''; 
+  width: calc(100% + 6px); 
+  height: 100%;
+  border-radius: 5px;
+  background-color: currentColor; 
+  opacity: 0.3; 
+  position: absolute; 
+  top: 0; 
+  left: -4px;
+  z-index: -1;
+}
+.compact-2Nkcau .headerText-2z4IhQ > .username-h_Y3Us::after {
+  content: ":";
+}
+
+/* Cozy Mode */
+.cozy-VmLDNB .headerText-2z4IhQ > .username-h_Y3Us::before {
+  content: ''; 
+  width: calc(100% + 7px); 
+  height: 100%;
+  border-radius: 5px;
+  background-color: currentColor; 
+  opacity: 0.3; 
+  position: absolute; 
+  top: 0; 
+  z-index: -1;
+  /* repairs left shift*/
+  left: -3px;
+}
+.cozy-VmLDNB .headerText-2z4IhQ > .username-h_Y3Us::after {
+  content: ":";
+}
+/* repairs left shift */
+.cozy-VmLDNB .headerText-2z4IhQ > .username-h_Y3Us {
+  margin-left: 3px;
+}

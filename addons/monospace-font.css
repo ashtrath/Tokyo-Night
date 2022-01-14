@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'JetBrainsMono Nerd Font';
+  src: local('JetBrainsMono Nerd Font'), url('https://rawgit.com/ryanoasis/nerd-fonts/master/patched-fonts/JetBrainsMono/Ligatures/Regular/complete/JetBrains%20Mono%20Regular%20Nerd%20Font%20Complete.ttf') format('truetype');
+}
+
+:root {
+  --font-primary: 'JetBrainsMono Nerd Font';
+  --font-code: 'JetBrainsMono Nerd Font';
+  --font-display: var(--font-primary);
+}
+
+/* Settings Menu Title */
+.bd-settings-title,
+.customScroller-m1-jZn div h1,
+.contentColumnDefault-3eyv5o .marginBottom4-1fdMNe h1,
+.sectionTitle-3j2YI1 h1,
+.alignCenter-14kD11 h1 {
+  font-style: italic;
+  font-weight: 600;
+}
+
+/* Server Name */
+.header-3OsQeK .name-3Uvkvr {
+  font-style: italic;
+  font-weight: 500;
+}
+
+/* Category Name */
+.name-3BUDLf.container-q97qHp .overflow-1wOqNV {
+  font-weight: 600;
+}
+
+/* Username on userpopout */
+.bot-XvK26D, .username-3JLfHz,
+.nameTag-2Nlmsy .discriminator-1bqsd3,
+.headerText-1-WmDq .nickname-t08Mck,
+.headerTagUsernameNoNickname-1TjuLc,
+.headerTagDiscriminatorNoNickname-dfcvHa {
+  font-style: italic;
+  font-weight: 500;
+}
+
+/* Link text */
+.anchor-1MIwyf {
+  font-style: italic;
+}
+
+/* Timestamp */
+.compact-2Nkcau .timestamp-p1Df1m,
+.cozy-VmLDNB .timestamp-p1Df1m {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 0.7rem;
+}
