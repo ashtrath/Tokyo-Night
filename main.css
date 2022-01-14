@@ -358,7 +358,7 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
 }
 
 /* Status Picker */
-#status-picker .scrollerBase-_bVAAt {
+/* #status-picker .scrollerBase-_bVAAt {
   display: grid;
 }
 
@@ -484,7 +484,7 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
 #status-picker .item-1OdjEX:not(#status-picker-custom-status):active,
 #status-picker .item-1OdjEX:not(#status-picker-custom-status).focused-3qFvc8 {
   background-color: var(--status-colour);
-}
+} */
 
 /* Stream Preview Popouts */
 .protip-13raHg {
