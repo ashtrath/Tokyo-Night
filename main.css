@@ -29,7 +29,6 @@
   --background-secondary: #171722;
   --background-secondary-alt: #13131a;
   --background-tertiary: #16161e;
-  --background-tertiary-alt: var(--background-secondary-alt);
   --background-accent: #434461;
   --background-floating: #161620;
   --background-modifier-hover: #212331c0;
@@ -57,9 +56,9 @@
   --header-secondary: var(--text-muted);
   --text-normal: #2e3338;
   --text-muted: #747f8d;
-  --text-positive: hsl(89, calc(var(--saturation-factor, 1)*32%), 28);
-  --text-warning: hsl(36, calc(var(--saturation-factor, 1)*74%), 32);
-  --text-danger: hsl(348, calc(var(--saturation-factor, 1)*35%), 31);
+  --text-positive: hsl(89, calc(var(--saturation-factor, 1)*32%), 28%);
+  --text-warning: hsl(36, calc(var(--saturation-factor, 1)*74%), 32%);
+  --text-danger: hsl(348, calc(var(--saturation-factor, 1)*35%), 31%);
   --info-positive-background: hsla(89,calc(var(--saturation-factor, 1)*32%),28%,0.8) !important;
   --info-positive-foreground: var(--text-positive);
   --info-warning-background: hsla(36,calc(var(--saturation-factor, 1)*74%),32%,0.8) !important;
@@ -77,7 +76,6 @@
   --background-secondary: #cecfd4;
   --background-secondary-alt: #b6b7bd;
   --background-tertiary: #c5c6cc;
-  --background-tertiary-alt: #bbbbc2;
   --background-accent: #9ca3bb;
   --background-floating: #c2c2c9;
   --background-mentioned: #c4c7da;
@@ -148,9 +146,6 @@
 .separator-2OaeRP {
   background-color: var(--background-secondary) !important;
 }
-.text-MPIeXO {
-  max-width: 485px;
-}
 .pageWrapper-2PwDoS,
 .container-2cd8Mz {
   background-color: var(--background-primary) !important;
@@ -201,7 +196,7 @@
 
 /* Voice Call Tab */
 .callContainer-HtHELf  {
-  background-color: var(--background-primary) !important;
+  background-color: var(--background-floating) !important;
 }
 .tile-2TcwiO {
   background-color: var(--background-secondary);
@@ -297,7 +292,7 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
 /* Add Role Popouts */
 .container-2O1UgZ {
   background-color: var(--background-floating);
-  border-color: var(--background-tertiary-alt);
+  border-color: var(--background-secondary-alt);
 }
 
 /* Search Popouts */
@@ -579,10 +574,10 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
 }
 
 .total-1c5KCN {
-  background-color: var(--background-tertiary-alt);
+  background-color: var(--background-secondary-alt);
 }
 .total-1c5KCN:after {
-  border-right-color: var(--background-tertiary-alt);
+  border-right-color: var(--background-secondary-alt);
 }
 
 /* New Mention bar*/
@@ -594,13 +589,13 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
 /* ~~~~		  		Settings Modal							~~~~ */
 
 .theme-light .closeButton-PCZcma {
-  border-color: var(--background-tertiary-alt);
+  border-color: var(--background-secondary-alt);
 }
 .theme-light .closeButton-PCZcma:hover {
   background-color: var(--background-secondary);
 }
 .theme-light .keybind-13vtq8 {
-  color: var(--background-tertiary-alt);
+  color: var(--background-secondary-alt);
 }
 .theme-light .gameName-Uw4dbt {
   color: #4f545c !important;
@@ -643,7 +638,7 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
 }
 .userSettingsVoice-1_dzjw .previewOverlay-2reuWf {
   background-color: var(--background-floating) !important;
-  border-color: var(--background-tertiary-alt) !important;
+  border-color: var(--background-secondary-alt) !important;
 }
 .premiumTabItem-1QTfBr[aria-selected="true"] {
   color: #fff !important;
@@ -693,11 +688,11 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
 }
 .card-o7rAq- {
   background-color: var(--background-secondary) !important;
-  border-color: var(--background-tertiary-alt) !important;
+  border-color: var(--background-secondary-alt) !important;
 }
 .cardPrimaryOutline-1ofwVz {
   background-color: var(--background-secondary);
-  border-color: var(--background-tertiary-alt);
+  border-color: var(--background-secondary-alt);
 }
 .changeDetails-1kMZqI {
   background-color: var(--background-secondary) !important;
@@ -713,7 +708,7 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
 .css-6fzn47-control,
 .css-3vaxre-menu {
   background-color: var(--background-secondary);
-  border-color: var(--background-tertiary-alt);
+  border-color: var(--background-secondary-alt);
 }
 .background-3xJH_4 {
   color: var(--background-secondary) !important;
@@ -778,7 +773,7 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
   box-shadow: none;
 }
 .paymentPane-ut5qKZ {
-  background-color: var(--background-tertiary-alt) !important;
+  background-color: var(--background-secondary-alt) !important;
 }
 .bottomDivider-ZmTm-j {
   border-bottom-color: var(--background-secondary-alt) !important;
@@ -790,7 +785,7 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
 .payment-2bOh4k,
 .codeRedemptionRedirect-3SBiCp {
   background-color: var(--background-secondary) !important;
-  border-color: var(--background-tertiary-alt) !important;
+  border-color: var(--background-secondary-alt) !important;
 }
 #app-mount .footer-31IekZ {
   background-color: var(--background-tertiary);
@@ -806,19 +801,19 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
 }
 .typeWindows-2-g3UY {
   z-index: 1;
-  background-color: var(--background-tertiary-alt);
+  background-color: var(--background-secondary-alt);
 }
 
 /* ~~~~		  		     BD Support							~~~~ */
 #bd-editor-controls {
-  background: var(--background-tertiary-alt);
+  background: var(--background-secondary-alt);
   color: var(--interactive-normal);
 }
 #floating-editor-window {
   border-radius: 10px;
 }
 .floating-window-titlebar {
-  background-color: var(--background-tertiary-alt);
+  background-color: var(--background-secondary-alt);
 }
 .floating-window #bd-editor-controls {
   background-color: var(--background-tertiary) !important;
@@ -889,7 +884,7 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
   color: var(--text-danger) !important;
 }
 .channelTabs-tabContainer {
-  background-color: var(--background-tertiary-alt);
+  background-color: var(--background-secondary-alt);
 }
 .channelTabs-newTab {
   bottom: calc(var(--channelTabs-tabHeight) / 2) !important;
