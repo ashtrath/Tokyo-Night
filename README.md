@@ -1,8 +1,9 @@
+# IMPORTANT! THIS THEME IS NOT MAINTAINED ANYMORE BECAUSE IM NOT INTERESTED ON DISCORD THEMING ANYMORE, FORK AND PRs ARE STILL APPRECIATED AND WELCOMED!
 <h1 align="center">Tokyo Night</h1>
 
 ![](https://github.com/Dyzean/Tokyo-Night/blob/main/assets/preview.png?raw=true)
 
-<p align="center">A Clean, Dark Discord Theme Based on [Tokyo Night scheme](https://github.com/enkia/tokyo-night-vscode-theme).</p>
+<p align="center">A clean, dark, VSCode inspired theme based on <a href="https://github.com/enkia/tokyo-night-vscode-theme">Tokyo Night</a> scheme.</p>
 
 ---
 
