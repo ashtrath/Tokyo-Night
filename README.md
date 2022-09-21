@@ -1,4 +1,4 @@
-# IMPORTANT! THIS THEME IS NOT MAINTAINED ANYMORE BECAUSE IM NOT INTERESTED ON DISCORD THEMING ANYMORE, FORK AND PRs ARE STILL APPRECIATED AND WELCOMED!
+# IMPORTANT! THIS THEME IS NOT ACTIVELY MAINTAINED ANYMORE BECAUSE IM NOT INTERESTED ON DISCORD THEMING ANYMORE, FORK AND PRs ARE STILL APPRECIATED AND WELCOMED!
 <h1 align="center">Tokyo Night</h1>
 
 ![](https://github.com/Dyzean/Tokyo-Night/blob/main/assets/preview.png?raw=true)
@@ -19,6 +19,11 @@
 ```sh
 cd powercord/src/powercord/themes && git clone https://github.com/Dyzean/Tokyo-Night
 ```
+
+### Goosemod
+1. Open Goosemod's Theme Store
+2. Search for Tokyo Night
+3. Install the theme and enable it
 
 ## Credits
 

@@ -1,15 +1,17 @@
-/* User Menu, Credit to Strencher#1044 for this */
-.guilds-2JjMmN {
+/* === User Menu, Credit to Strencher#1044 for this === */
+/* === Disabled cuz broken with the new discord update === */
+
+/* .guilds-2JjMmN {
   height: calc(100% - 128px);
 }
 .guilds-2JjMmN .scroller-3X7KbA {
   background: var(--background-tertiary);
-}
+} */
 
 /* added :not(.powercord-spotify) so it doesn't break powercord spotify panel plugin.
   (make a issue or pr if you found a better way to do this.) */
 
-:not(.powercord-spotify) > .container-YkUktl {
+/* :not(.powercord-spotify) > .container-YkUktl {
   position: absolute;
   left: -62px;
   bottom: 39px;
@@ -97,10 +99,10 @@
 }
 :not(.powercord-spotify) > .container-YkUktl .hovered-20u3oh {
   text-overflow: unset;
-}
+} */
 
 /* Fix Status picker position */
-#status-picker {
+/* #status-picker {
   bottom: -8em;
   left: 4.3em;
-}
+} */

@@ -2,7 +2,7 @@
  * @name Tokyo Night
  * @description Discord Port of Visual Studio Code Theme
  * @author Ashtrath
- * @version 2.0.0
+ * @version 2.0.1
  * @authorId 2354831939099688962
  */
 
@@ -32,8 +32,8 @@
 /* Syntax Highlight, get hljs styling with Tokyo Night scheme (Enabled by default) */
 @import url("https://dyzean.github.io/Tokyo-Night/addons/syntax-highlight.css");
 
-/* Username Background, get colorful background behind username on chat, works best with Monospace addon. (Enabled by default) */
-@import url("https://dyzean.github.io/Tokyo-Night/addons/username-background.css");
+/* Username Background, get colorful background behind username on chat, works best with Monospace addon. (Disabled by default) */
+/* @import url("https://dyzean.github.io/Tokyo-Night/addons/username-background.css"); */
 
 /* Mac Like Titlebar (windows only), get mac style titlebar on windows client (Enabled by default) */
 @import url("https://dyzean.github.io/Tokyo-Night/addons/mac-titlebar.css");
