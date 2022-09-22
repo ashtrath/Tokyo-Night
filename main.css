@@ -202,7 +202,7 @@
 
 /* Forum Channel */
 .container-3wLKDe {
-  background-color: var(--background-tertiary);
+  background-color: var(--background-tertiary) !important;
 }
 .mainCard-3KBsBI {
   background-color: var(--background-secondary);
