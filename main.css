@@ -1,6 +1,3 @@
-/* USRBG */
-@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/UsrBgs.css");
-
 /* ---- Discord Variables ---- */
 .theme-dark {
   --header-primary: var(--text-normal);
@@ -17,6 +14,9 @@
   --info-warning-foreground: var(--text-warning);
   --info-danger-background: hsla(349,calc(var(--saturation-factor, 1)*89%),72%,0.8) !important;
   --info-danger-foreground: var(--text-danger);
+  --status-danger: var(--text-danger);
+  --status-warning: var(--text-warning);
+  --status-positive: var(--text-positive);
   --status-positive-background: var(--info-positive-background);
   --status-warning-background: var(--info-warning-background);
   --status-danger-background: var(--info-danger-background);
@@ -49,6 +49,7 @@
   --scrollbar-auto-scrollbar-color-thumb: var(--scrollbar-auto-thumb);
   --scrollbar-auto-scrollbar-color-track: var(--scrollbar-auto-track);
   --channeltextarea-background: var(--background-secondary);
+  --input-background: var(--background-secondary);
 }
 
 .theme-light {
@@ -65,6 +66,9 @@
   --info-warning-foreground: var(--text-warning);
   --info-danger-background: hsla(349,calc(var(--saturation-factor, 1)*35%),31%,0.8) !important;
   --info-danger-foreground: var(--text-danger);
+  --status-danger: var(--text-danger);
+  --status-warning: var(--text-warning);
+  --status-positive: var(--text-positive);
   --status-positive-background: var(--info-positive-background);
   --status-warning-background: var(--info-warning-background);
   --status-danger-background: var(--info-danger-background);
@@ -99,6 +103,7 @@
   --scrollbar-auto-scrollbar-color-thumb: var(--scrollbar-auto-thumb);
   --scrollbar-auto-scrollbar-color-track: var(--scrollbar-auto-track);
   --channeltextarea-background: var(--background-secondary);
+  --input-background: var(--background-secondary);
 }
 
 /* ~~~~		  		General							~~~~ */
@@ -109,6 +114,11 @@
 .theme-light ::selection {
   background-color: #fafbff55;
   color: #4c505e;
+}
+
+/* Input Box Placeholder Text */
+::placeholder {
+  color: var(--text-muted) !important;
 }
 
 /* Scrollbar */
@@ -610,6 +620,22 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
 }
 .select-1Ia3hD {
   color: var(--interactive-active);
+}
+
+/* Registered Game Page */
+.gameName-zbZetm {
+	color: var(--header-primary) !important;
+}
+.lastPlayed-1jum9A,
+.nowPlayingAdd-3I4RbE,
+.overlayStatusText-In0YrK {
+	color: var(--header-secondary) !important;
+}
+.overlayToggleIconOff-ps4gGp .fill-297bdf ~ rect {
+	fill: var(--status-danger) !important;
+}
+.overlayToggleIconOn-21NN2N .fill-297bdf {
+  fill: var(--status-positive) !important;
 }
 
 /* Server Settings */

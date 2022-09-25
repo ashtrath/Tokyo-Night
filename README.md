@@ -15,7 +15,7 @@
 2. Place it in the BetterDiscord themes folder
 3. Enable Tokyo Night in the themes tab
 
-### Powercord
+### Powercord/Replugged
 ```sh
 cd powercord/src/powercord/themes && git clone https://github.com/Dyzean/Tokyo-Night
 ```
