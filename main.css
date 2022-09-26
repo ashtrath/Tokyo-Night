@@ -348,30 +348,6 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
 .messageInputContainer-2rGDH8 {
   border: 1px solid var(--background-tertiary);
 }
-/* Make Non-Premium banner have consistent size as premium one */
-svg.bannerSVGWrapper-qc0szY:not(.bannerSVGWrapper-qc0szY [class*='Premium']) {
-  height: 120px;
-}
-:is(.userPopout-2j1gM4, #account) .popoutBanner-3cqRD9 .pencilContainer-18TrEJ {
-  inset: 5px 156px auto auto;
-  width: 4px;
-  height: 4px;
-}
-:is(.userPopout-2j1gM4:not(.userPopout02jgM4 [class*='Premium']), .focusLock-2tveLW, #account)
-  .pencilIcon-z04-c5 {
-  margin: -2.2px !important;
-}
-.avatarWrapperNormal-ahVUaC {
-  top: 76px;
-}
-.focusLock-2tveLW .bannerSVGWrapper-qc0szY {
-  height: 240px !important;
-}
-.focusLock-2tveLW .pencilContainer-18TrEJ {
-  inset: 7px 308px auto auto;
-  width: 8px;
-  height: 8px;
-}
 
 /* Add Role Popouts */
 .container-2O1UgZ {
