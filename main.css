@@ -271,7 +271,7 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
 
 /* ~~~~		  		Messages							~~~~ */
 
-/* Text */
+/* Quotes */
 .blockquoteContainer-3VtvI1 {
   padding: 2px 0 2px 0;
 }
@@ -283,7 +283,7 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
   padding: 4px 11px 4px;
 }
 .blockquoteContainer-3VtvI1 > .blockquoteDivider-363utW {
-  background-color: var(--background-accent);
+  background-color: var(--accent-color);
   border-radius: 4px 0 0 4px;
 }
 .after_inlineCode-WydEur,
@@ -334,8 +334,43 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
 /* ~~~~		  		Popouts							~~~~ */
 
 /* User Popouts */
-.headerTagUsernameNoNickname-1TjuLc {
+.userTagUsernameNoNickname-2e_xaO {
   color: var(--text-normal);
+}
+.rolePill-2IJ1vo {
+  background-color: var(--profile-role-pill-background-color);
+  border: 0px solid; /* Remove role pill's border */
+  border-color: var(--profile-role-pill-border-color);
+}
+.messageInput-1KI8l8 {
+  background-color: var(--background-secondary-alt);
+}
+.messageInputContainer-2rGDH8 {
+  border: 1px solid var(--background-tertiary);
+}
+/* Make Non-Premium banner have consistent size as premium one */
+svg.bannerSVGWrapper-qc0szY:not(.bannerSVGWrapper-qc0szY [class*='Premium']) {
+  height: 120px;
+}
+:is(.userPopout-2j1gM4, #account) .popoutBanner-3cqRD9 .pencilContainer-18TrEJ {
+  inset: 5px 156px auto auto;
+  width: 4px;
+  height: 4px;
+}
+:is(.userPopout-2j1gM4:not(.userPopout02jgM4 [class*='Premium']), .focusLock-2tveLW, #account)
+  .pencilIcon-z04-c5 {
+  margin: -2.2px !important;
+}
+.avatarWrapperNormal-ahVUaC {
+  top: 76px;
+}
+.focusLock-2tveLW .bannerSVGWrapper-qc0szY {
+  height: 240px !important;
+}
+.focusLock-2tveLW .pencilContainer-18TrEJ {
+  inset: 7px 308px auto auto;
+  width: 8px;
+  height: 8px;
 }
 
 /* Add Role Popouts */
@@ -350,10 +385,10 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
   border-radius: 10px !important;
   box-shadow: var(--elevation-high) !important;
 }
-.option-2KkUJO:after {
+.option-ayUoaq::after {
   display: none !important;
 }
-.option-2KkUJO.selected-rZcOL-,
+.option-ayUoaq.selected-rZcOL-,
 .input-3r5zZY {
   background-color: var(--background-secondary-alt) !important;
 }
@@ -365,36 +400,51 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
   background-color: var(--background-primary) !important;
   color: var(--header-primary) !important;
 }
-#app-mount .option-2KkUJO[aria-selected=true] {
-  background-color: var(--background-modifier-hover);
+.option-2KkUJO[aria-selected=true] {
+  background-color: var(--background-modifier-hover) !important;
 }
-#app-mount .searchOption-351dTI .filter-5YbOzJ,
-#app-mount .option-2KkUJO:not([group="SEARCH_OPTIONS"]) .answer-2fBfuP,
-#app-mount .option-2KkUJO .nonText-3_4gtu,
-#app-mount .option-2KkUJO strong {
+.searchOption-3u1gRt .filter-2QaH9y,
+.option-ayUoaq:not([group="SEARCH_OPTIONS"]) .answer-14OVbQ,
+.option-ayUoaq .nonText-28q_Ot,
+.queryContainer-ZunrLZ strong,
+.option-ayUoaq strong {
   color: var(--text-normal) !important;
 }
-#app-mount .option-2KkUJO .filter-5YbOzJ,
-#app-mount .searchOption-351dTI .answer-2fBfuP {
-  color: var(--text-muted);
+.option-ayUoaq .filter-2QaH9y,
+.searchOption-3u1gRt .answer-14OVbQ {
+  color: var(--text-muted) !important;
 }
-#app-mount .resultsGroup-1BPR25 .header-3A13BX,
-#app-mount .resultsGroup-1BPR25 .plusIcon-2V7coV,
-#app-mount .resultsGroup-1BPR25 .searchClearHistory-2Be-92,
-#app-mount .resultsGroup-1BPR25 .searchLearnMore-7__o_n a {
-  color: var(--channels-default);
+.resultsGroup-cfY57t .header-1BR0Ro,
+.resultsGroup-cfY57t .plusIcon-1RVszG,
+.resultsGroup-cfY57t .searchClearHistory-3nIKUO,
+.resultsGroup-cfY57t .searchLearnMore-7__o_n a {
+  color: var(--channels-default) !important;
 }
 
 /* Calendar */
 .calendarPicker-sDhzdi .react-datepicker__navigation.react-datepicker__navigation--previous {
   border: none !important;
 }
+.calendarPicker-sDhzdi .react-datepicker__current-month,
+.calendarPicker-sDhzdi .react-datepicker__day-name {
+  color: var(--text-normal) !important;
+}
 .calendarPicker-sDhzdi .react-datepicker__day {
   border-top: 1px solid var(--background-modifier-accent) !important;
   border-left: 1px solid var(--background-modifier-accent) !important;
 }
-.calendarPicker-sDhzdi .react-datepicker__day--disabled, .theme-dark .calendarPicker-sDhzdi .react-datepicker__day--outside-month, .theme-dark .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--disabled, .theme-dark .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--disabled:hover {
+.calendarPicker-sDhzdi .react-datepicker__day--disabled,
+.calendarPicker-sDhzdi .react-datepicker__day--outside-month,
+.calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--disabled,
+.calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--disabled:hover {
   background-color: var(--background-secondary-alt) !important;
+  color: var(--text-muted) !important;
+}
+.calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--keyboard-selected,
+.calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--selected:hover,
+.calendarPicker-sDhzdi .react-datepicker__day:hover,
+.calendarPicker-sDhzdi .react-datepicker__day {
+  color: var(--text-normal) !important;
 }
 .calendarPicker-sDhzdi .react-datepicker__header,
 .calendarPicker-sDhzdi .react-datepicker {
@@ -528,14 +578,14 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
 .accountProfileCard-lbN7n- {
   background-color: var(--background-secondary-alt);
 }
-.notDetected-2HEmAp {
+.notDetected-M3Ghh2 {
   background-color: var(--background-tertiary) !important;
 }
-.addGamePopout-3yePJc {
+.addGamePopout-2SKNIV {
   background-color: var(--background-secondary) !important;
   box-shadow: none !important;
 }
-.game-3x3aDt {
+.game-2f2vPC {
   box-shadow: 0 1px 0 0 var(--background-tertiary) !important;
 }
 .cardPrimary-3qRT__ {
@@ -550,7 +600,7 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
 .card-2gdrYL:hover {
   background: var(--background-floating);
 }
-.gameVerifiedIcon-3t4jtr .flowerStar-2tNFCR > path {
+.gameVerifiedIcon-1YMUdQ .flowerStar-2tNFCR > path {
   fill: var(--brand-experiment);
 }
 .markValue-2U_-UG {
@@ -565,7 +615,7 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
   background-color: var(--background-floating) !important;
   border-color: var(--background-secondary-alt) !important;
 }
-.premiumTabItem-1QTfBr[aria-selected="true"] {
+.premiumTab-39eQzY[aria-selected="true"] {
   color: #fff !important;
   background-color: #b466c2 !important;
 }
@@ -586,15 +636,15 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
   background-color: var(--background-floating) !important;
   box-shadow: inset 0 -4px 0 var(--background-secondary) !important;
 }
-.lookFilled-1GseHa.colorYellow-Pgtmch {
+.lookFilled-yCfaCM.colorYellow-Pgtmch {
   color: #fff !important;
   background-color: var(--text-warning) !important;
 }
-.lookFilled-1GseHa.colorGreen-3y-Z79 {
+.lookFilled-yCfaCM.colorGreen-3y-Z79 {
   color: #fff !important;
   background-color: var(--text-positive) !important;
 }
-.lookFilled-1GseHa.colorRed-rQXKgM {
+.lookFilled-yCfaCM.colorRed-rQXKgM {
   color: #fff !important;
   background-color: var(--text-danger) !important;
 }
@@ -645,7 +695,7 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
   background-color: var(--background-tertiary) !important;
 }
 .container-2oNtJn {
-  background: var(--background-secondary);
+  background-color: var(--background-secondary);
 }
 .auditLog-1NVAY0 {
   border-color: var(--background-tertiary) !important;
@@ -724,6 +774,7 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
 .reactionSelected-1aMb2K {
   background-color: var(--background-modifier-selected) !important;
 }
+
 /* Pin Message Modal */
 .message-G6O-Wv {
   background-color: var(--background-secondary) !important;
@@ -756,12 +807,12 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
 }
 .paginator-1eqD2g,
 .payment-2bOh4k,
-.codeRedemptionRedirect-3SBiCp {
+.codeRedemptionRedirect-2hYMSQ {
   background-color: var(--background-secondary) !important;
   border-color: var(--background-secondary-alt) !important;
 }
-#app-mount .footer-31IekZ {
-  background-color: var(--background-tertiary);
+.footer-VCsJQY {
+  background-color: var(--background-tertiary) !important;
 }
 
 /* ~~~~		  		Watermark							~~~~ */
@@ -835,6 +886,9 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
 .modal-2RrUKJ {
 	background-color: var(--background-primary) !important;
 }
+.powercord-product-footer .lookLink-15mFoz.colorTransparent-13Bvvi {
+  color: var(--text-link) !important;
+}
 
 /* ~~~~		  		 Plugin Support							~~~~ */
 
@@ -843,6 +897,10 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
   background-color: var(--background-secondary) !important;
   border: 1px solid var(--background-tertiary);
   color: var(--text-normal);
+}
+.powercord-codeblock-lang {
+  font-size: 1em;
+  font-family: 'JetBrainsMono Nerd Font', 'Raleway', var(--font-code), monospace;
 }
 
 /* Channel Tabs */
@@ -892,7 +950,7 @@ button:hover .fa-backward:hover{
 
 /* ~~~~		  		CSS Snippets							~~~~ */
 
-/* better name colors in chat & list light mode */
+/* Better name colors in chat & list light mode */
 .theme-light .username-h_Y3Us.desaturateUserColors-1O-G89.clickable-31pE3P,
 .theme-light .roleColor-nA7BqX.desaturateUserColors-1O-G89 {
   filter: contrast(50%);
@@ -903,7 +961,7 @@ button:hover .fa-backward:hover{
   filter: contrast(100%);
 }
 
-/* Hide Some Things */
+/* Hide unused things */
 .banner-1YaD3N:hover .premiumIconWrapper-32h0Ri .textBadge-1fdDPJ,
 .banner-1YaD3N:hover .bannerOverlay-1uIerX,
 .banner-1YaD3N:hover .pencilIcon-z04-c5,
@@ -912,6 +970,25 @@ button[aria-label="Send a gift"],
 .toolbar-3_r2xA a,
 .gifTag-3_dPxY {
   display: none;
+}
+
+/* Consistent Account and Server Join Date */
+.discordMemberCreatedAtIconContainer-2oMHqL {
+  padding: 0px;
+  background-color: var(--background-tertiary);
+}
+.discordMemberCreatedAtIcon-126if8 {
+  width: 24px;
+  height: 24px;
+}
+.discordMemberCreatedAtText-15sN5q > div {
+  display: none;
+}
+.discordMemberCreatedAt-31OkT7 > .discordMemberCreatedAtText-15sN5q > h3 {
+  font-size: 16px;
+  font-family: inherit;
+  font-weight: 600;
+  user-select: text;
 }
 
 /* Replaces Message Links with "Jump to Message" */

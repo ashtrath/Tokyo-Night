@@ -74,12 +74,11 @@
 }
 
 #app-mount .hljs {
-  font-family: 'JetBrainsMono Nerd Font', 'JetBrains Mono', monospace;
+  font-family: 'JetBrainsMono Nerd Font', 'JetBrains Mono', var(--font-code), monospace;
   background: var(--background-secondary);
   color: var(--text-normal);
   padding: 15px 20px;
   border-radius: 5px;
-  border: none;
 }
 
 #app-mount .codeLine-3a3dbd {

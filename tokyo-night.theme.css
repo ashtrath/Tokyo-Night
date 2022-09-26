@@ -2,7 +2,7 @@
  * @name Tokyo Night
  * @description Discord Port of Visual Studio Code Theme
  * @author Ashtrath
- * @version 2.0.1
+ * @version 2.0.2
  * @authorId 2354831939099688962
  */
 
@@ -20,7 +20,6 @@
 */
 
 /* ====== Optional Addons ====== */
-@import url("https://mr-miner1.github.io/cooler-activity-status/theme[bd].theme.css");
 @import url("https://dyzean.github.io/Tokyo-Night/addons/revert-rebrand.css");
 @import url("https://nyri4.github.io/Discolored/main.css");
 
