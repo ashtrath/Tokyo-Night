@@ -875,8 +875,8 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
   color: var(--text-normal);
 }
 .powercord-codeblock-lang {
-  font-size: 1em;
-  font-family: 'JetBrainsMono Nerd Font', 'Raleway', var(--font-code), monospace;
+  font-size: 1em !important;
+  font-family: 'JetBrainsMono Nerd Font', 'Raleway', var(--font-code), monospace !important;
 }
 
 /* Channel Tabs */
