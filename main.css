@@ -188,6 +188,9 @@
 .scrollableContainer-15eg7h:focus-within {
   border-bottom-color: var(--accent-color);
 }
+.emptyChannelIcon-1YdEz2 {
+  background-color: var(--background-tertiary);
+}
 .theme-dark .sprite-2lxwfc:not(:hover) {
   filter: none !important;
   background: url("https://dyzean.github.io/Tokyo-Night/assets/emoji-dark.png") center/contain no-repeat !important;
@@ -759,7 +762,7 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
 }
 
 /* Connections Modal */
-.focusLock-2tveLW .root-g14mjS {
+.focusLock-2tveLW[aria-label="Add Connection"] .root-g14mjS {
   background-color: var(--background-secondary-alt) !important;
   box-shadow: none !important;
 }
@@ -771,6 +774,10 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
 .root-g14mjS {
   background-color: var(--background-primary) !important;
   box-shadow: none;
+}
+.modalHeader-gQTY3L,
+.root-2s1-ri > * {
+  background-color: transparent !important;
 }
 .paymentPane-ut5qKZ {
   background-color: var(--background-secondary-alt) !important;
@@ -787,6 +794,11 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
   background-color: var(--background-secondary) !important;
   border-color: var(--background-secondary-alt) !important;
 }
+.footerSeparator-VzAYwb {
+  -webkit-box-shadow: inset 0 1px 0 var(--background-secondary-alt) !important;
+  box-shadow: inset 0 1px 0 var(--background-secondary-alt) !important;
+}
+.footer-31IekZ,
 .footer-VCsJQY {
   background-color: var(--background-tertiary) !important;
 }
