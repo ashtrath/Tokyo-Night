@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'JetBrainsMono Nerd Font';
-  src: local('JetBrainsMono Nerd Font'), url('https://rawgit.com/ryanoasis/nerd-fonts/master/patched-fonts/JetBrainsMono/Ligatures/Regular/complete/JetBrains%20Mono%20Regular%20Nerd%20Font%20Complete.ttf') format('truetype');
+  src: local('JetBrainsMono Nerd Font'), url('https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@12a523c32d55bdde88074e5b09e2b2e1eb9b5342/patched-fonts/JetBrainsMono/Ligatures/Regular/complete/JetBrains%20Mono%20Regular%20Nerd%20Font%20Complete.ttf') format('truetype');
 }
 
 :root {
