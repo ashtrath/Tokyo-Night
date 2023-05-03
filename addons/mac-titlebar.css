@@ -37,11 +37,11 @@
   margin-top: 0px;
 }
 .withFrame-2dL45i .winButtonMinMax-3RsPUg:nth-child(3):after {
-background-color: var(--maximize-button-color) !important;
+  background-color: var(--maximize-button-color) !important;
   margin-top: 0px;
 }
 .withFrame-2dL45i .winButtonMinMax-3RsPUg:nth-child(4)::after {
-  background-color: var(--minimize-button-color) !important;  
+  background-color: var(--minimize-button-color) !important;
   margin-top: 0px;
 }
 .typeWindows-2-g3UY > div:hover::after {
