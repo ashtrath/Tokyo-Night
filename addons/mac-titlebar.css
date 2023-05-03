@@ -49,19 +49,11 @@ background-color: var(--maximize-button-color) !important;
 }
 
 .withFrame-2dL45i .winButton-3UMjdg:nth-last-child(1) {
-  margin-top: 0px;
   order: 2;
 }
 .withFrame-2dL45i .winButton-3UMjdg:nth-last-child(2) {
-  margin-top: 0px;
   order: 3;
 }
 .withFrame-2dL45i .winButton-3UMjdg:nth-last-child(3) {
-  margin-top: 0px;
   order: 1;
-}
-.withFrame-2dL45i .winButton-3UMjdg:nth-last-child(3) *,
-.withFrame-2dL45i .winButton-3UMjdg:nth-last-child(2) *,
-.withFrame-2dL45i .winButton-3UMjdg:nth-last-child(1) * {
-  display: none;
 }
