@@ -32,7 +32,7 @@
   pointer-events: fill;
   transition-duration: 200ms;
 }
-.withFrame-2dL45i .winButtonClose-3Q8ZH5:after {
+.withFrame-2dL45i .winButtonClose-3Q8ZH5::after {
   background-color: var(--close-button-color) !important;
   margin-top: 0px;
 }
