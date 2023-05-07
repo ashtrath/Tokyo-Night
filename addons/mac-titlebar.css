@@ -1,8 +1,8 @@
 /* Mac Like Titlebar */
 :root {
   --close-button-color: #e92a2ade;
-  --maximize-button-color: #f7bc1bde;
-  --minimize-button-color: #12db33de;
+  --minimize-button-color: #f7bc1bde;
+  --maximize-button-color: #12db33de;
   --button-position: row;
 }
 
@@ -46,4 +46,14 @@
 }
 .typeWindows-2-g3UY > div:hover::after {
   transform: scale(1.1);
+}
+
+.withFrame-2dL45i .winButton-3UMjdg:nth-last-child(1) {
+  order: 2;
+}
+.withFrame-2dL45i .winButton-3UMjdg:nth-last-child(2) {
+  order: 3;
+}
+.withFrame-2dL45i .winButton-3UMjdg:nth-last-child(3) {
+  order: 1;
 }
