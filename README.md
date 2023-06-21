@@ -21,10 +21,14 @@ cd replugged/themes && git clone https://github.com/Dyzean/Tokyo-Night
 ```
 or [Click This Link](https://replugged.dev/install?url=https://github.com/Dyzean/Tokyo-Night)
 
-### Goosemod
-1. Open Goosemod's Theme Store
-2. Search for "Tokyo Night"
-3. Install the theme and enable it
+### Vencord
+
+1. Go to user settings (CTRL + ,)
+2. Go to the "Vencord" category and select the "Themes" tab.
+3. In the input field under "THEMES" paste the following URL.
+```
+https://raw.githubusercontent.com/Dyzean/Tokyo-Night/main/tokyo-night.theme.css
+```
 
 ## Credits
 
