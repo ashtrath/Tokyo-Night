@@ -462,6 +462,7 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
 
 /* Server List */
 .folder-241Joy,
+.expandedFolderBackground-1kSAf6,
 .folder-241Joy > .folderIconWrapper-1oRIZr[style="background-color: rgba(88, 101, 242, 0.4);"] {
   background-color: var(--folder-color) !important;
 }
@@ -470,7 +471,10 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
   background-color: var(--folder-color-light);
 }
 
-.folder-241Joy > .expandedFolderIconWrapper-3RwQpD > svg[style="color: rgb(88, 101, 242);"],
+.folder-241Joy > .folderIconWrapper-1oRIZr > .expandedFolderIconWrapper-3RwQpD > svg[style="color: rgb(88, 101, 242);"] {
+  color: var(--accent-color) !important;
+}
+
 .numberBadge-37OJ3S {
   background-color: var(--accent-color) !important;
 }
