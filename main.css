@@ -461,17 +461,16 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
 /* ~~~~		  		Sidebar							~~~~ */
 
 /* Server List */
-.folder-241Joy .folderIconWrapper-1oRIZr {
+.folder-241Joy,
+.folder-241Joy > .folderIconWrapper-1oRIZr[style="background-color: rgba(88, 101, 242, 0.4);"] {
   background-color: var(--folder-color) !important;
 }
-.folderIconWrapper-1oRIZr:hover,
+.folderIconWrapper-1oRIZr[style="background-color: rgba(88, 101, 242, 0.4);"]:hover,
 .folder-241Joy:hover {
   background-color: var(--folder-color-light);
 }
-.folder-241Joy,
-.expandedFolderBackground-1kSAf6 {
-  background-color: var(--folder-color);
-}
+
+.folder-241Joy > .expandedFolderIconWrapper-3RwQpD > svg[style="color: rgb(88, 101, 242);"],
 .numberBadge-37OJ3S {
   background-color: var(--accent-color) !important;
 }
