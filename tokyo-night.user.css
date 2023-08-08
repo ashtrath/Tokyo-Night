@@ -1,0 +1,11 @@
+@-moz-document domain("discord.com") {
+/* ==UserStyle==
+ * @name Tokyo Night
+ * @description Discord Port of Visual Studio Code Theme
+ * @author Ashtrath
+ * @version 2.0.2
+ * @authorId 2354831939099688962
+ ==/UserStyle== */
+
+    @import url(https://dyzean.github.io/Tokyo-Night/main.css);
+}
