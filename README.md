@@ -30,6 +30,17 @@ or [Click This Link](https://replugged.dev/install?url=https://github.com/Dyzean
 https://raw.githubusercontent.com/Dyzean/Tokyo-Night/main/tokyo-night.theme.css
 ```
 
+### Stylus
+> **Warning**
+> 
+> Stylus support is in **beta** and is not complete! Addons are currently **unavailabe**, meaning just the color aspect of the theme is active. Full Stylus support coming soon!
+
+1. Install the broswer extensions for your repsective browser.
+    - [Chrome Webstore](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
+    - [Firefox Addons](https://addons.mozilla.org/en-US/firefox/addon/styl-us)
+2. Once installed, open [this link](https://github.com/Dyzean/Tokyo-Night/blob/main/tokyo-night.user.css) in a new browser tab. This opens the page where you will install this userstyle.
+3. Press the `Install Style` button.
+
 ## Credits
 
 - [LuckFire](https://github.com/LuckFire) for [Better Quotes](https://github.com/LuckFire/CSS-Snippets/tree/master/BetterQuotes)
