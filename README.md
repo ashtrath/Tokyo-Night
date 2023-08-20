@@ -32,6 +32,10 @@ https://raw.githubusercontent.com/Dyzean/Tokyo-Night/main/tokyo-night.theme.css
 
 ### Stylus
 
+> Important Note!
+>
+> To be able to customize this theme, please fork using [this link](https://github.com/Dyzean/Tokyo-Night/fork) and follow the instructions in `tokyo-night.user.css` starting at line 12.
+
 1. Install the broswer extensions for your repsective browser.
     - [Chrome Webstore](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
     - [Firefox Addons](https://addons.mozilla.org/en-US/firefox/addon/styl-us)
