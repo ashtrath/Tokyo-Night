@@ -1,10 +1,10 @@
 @media screen and (min-width: 601px) and (max-width: 920px) {
   /* Minimize channels sidebar */
-  .wrapper-1_HaEi.guilds-2JjMmN[aria-label] {
+  .wrapper_a7e7a8.guilds__2b93a[aria-label] {
     z-index: 30 !important; 
   }
 
-  .base-2jDfDU .sidebar-1tnWFu {
+  .base__3e6af .sidebar_ded4b5 {
     position: fixed;
     z-index: 20;
     top: 0;
@@ -15,19 +15,19 @@
     transition-delay: 150ms;
   }
 
-  .sidebar-1tnWFu:hover,
-  .wrapper-1_HaEi:hover + .base-2jDfDU > .content-1SgpWY > .sidebar-1tnWFu{
+  .sidebar_ded4b5:hover,
+  .wrapper_a7e7a8:hover + .base__3e6af > .content__4bf10 > .sidebar_ded4b5{
     left: 72px;
   }
 
   /* Hide member list */
-  .membersWrap-3NUR2t {
+  .membersWrap__90226 {
     display: none;
   }
 
   /* Compact Top bar */
-  .toolbar-3_r2xA > :nth-child(2),
-  .toolbar-3_r2xA > :nth-child(4) {
+  .toolbar__88c63 > :nth-child(2),
+  .toolbar__88c63 > :nth-child(4) {
     display: none;
   }
 
@@ -36,7 +36,7 @@
     width: 28px;
     transition: width 0.2s ease-in-out;
   }
-  .searchBar-zdmu7v .iconContainer-1RqWJj {
+  .searchBar-zdmu7v .iconContainer__8fa9c {
     width: 24px !important;
     height: 24px;
     cursor: pointer !important;
@@ -65,13 +65,13 @@
 
 /* Very Compact (chat only) */
 @media screen and (min-width: 0px) and (max-width: 600px) {
-  .panels-3wFtMD  { position: fixed; bottom: -999px; }
-  .chat-2ZfjoI { margin-left: 0px; }
-  .sidebar-1tnWFu { width: 0px; }
-  .sidebar-1tnWFu .thin-31rlnD { display: none; }
-  .sidebar-1tnWFu  { padding: 0px !important; }
-  .toolbar-3_r2xA { display: none; }
-  .children-3xh0VB { margin-right: 10px; }
-  .wrapper-1_HaEi { display: none; }
-  .membersWrap-3NUR2t { display: none; }
+  .panels__58331  { position: fixed; bottom: -999px; }
+  .chat__52833 { margin-left: 0px; }
+  .sidebar_ded4b5 { width: 0px; }
+  .sidebar_ded4b5 .thin_b1c063 { display: none; }
+  .sidebar_ded4b5  { padding: 0px !important; }
+  .toolbar__88c63 { display: none; }
+  .children__32014 { margin-right: 10px; }
+  .wrapper_a7e7a8 { display: none; }
+  .membersWrap__90226 { display: none; }
 }

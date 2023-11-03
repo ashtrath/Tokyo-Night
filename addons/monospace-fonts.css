@@ -11,27 +11,27 @@
 
 /* Settings Menu Title */
 .bd-settings-title,
-.customScroller-m1-jZn div h1,
-.contentColumnDefault-3eyv5o .marginBottom4-1fdMNe h1,
+.customScroller_f72801 div h1,
+.contentColumnDefault_c66386 .marginBottom4__12b08 h1,
 .sectionTitle-3j2YI1 h1,
-.alignCenter-14kD11 h1 {
+.alignCenter__84269 h1 {
   font-style: italic;
   font-weight: 600;
 }
 
 /* Server Name */
-.header-3OsQeK .name-3Uvkvr {
+.header__104ca .name_c08dbc {
   font-style: italic;
   font-weight: 500;
 }
 
 /* Category Name */
-.name-3BUDLf.container-q97qHp .overflow-1wOqNV {
+.name__590d6.container-q97qHp .overflow__87fe8 {
   font-weight: 600;
 }
 
 /* Username on userpopout */
-.bot-XvK26D, .username-3JLfHz,
+.bot__7a1c9, .username__2cac3,
 .nameTag-2Nlmsy .discriminator-1bqsd3,
 .headerText-1-WmDq .nickname-t08Mck,
 .headerTagUsernameNoNickname-1TjuLc,
@@ -46,8 +46,8 @@
 }
 
 /* Timestamp */
-.compact-2Nkcau .timestamp-p1Df1m,
-.cozy-VmLDNB .timestamp-p1Df1m {
+.compact__54ecc .timestamp_cdbd93,
+.cozy_f5c119 .timestamp_cdbd93 {
   font-style: italic;
   font-weight: 500;
   font-size: 0.7rem;
