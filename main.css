@@ -507,7 +507,7 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
 }
 .unread__48cf4 {
   top: 50%;
-  left: 5px;
+  left: 0;
   width: 6px;
   height: 6px;
   z-index: 1;
