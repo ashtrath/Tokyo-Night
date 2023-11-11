@@ -38,7 +38,7 @@ https://raw.githubusercontent.com/Dyzean/Tokyo-Night/main/themes/tokyo-night.the
 
 ### Stylus | Extension: [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)/[Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us)
 
-> [!Warning]
+> [!Note]
 > To be able to customize this theme, please fork using [this link](https://github.com/Dyzean/Tokyo-Night/fork) and follow the instructions in `tokyo-night.user.css` starting at line 12.
 
 1. Open [this link](https://github.com/Dyzean/Tokyo-Night/blob/main/themes/tokyo-night.user.css) in a new browser tab.
