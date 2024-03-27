@@ -334,6 +334,15 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
   background-color: var(--background-secondary);
 }
 
+/* Polls */
+.pollContainer__95d4b {
+  background-color: var(--background-secondary) !important;
+}
+
+.answerInner_a3bc8e {
+  background-color: var(--background-primary) !important;
+}
+
 /* ~~~~		  		Popouts							~~~~ */
 
 /* User Popouts */
