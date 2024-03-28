@@ -473,7 +473,7 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
 }
 
 /* Slash Command Popouts */
-.categoryHeader_f97a5f {
+.categoryHeader__70c8e {
   background-color: var(--background-floating) !important;
 }
 .option__32fd1,
