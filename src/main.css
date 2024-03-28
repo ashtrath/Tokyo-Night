@@ -485,7 +485,7 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
 
 /* Server List */
 .folder__17546,
-.expandedFolderBackground__1bec6,
+.expandedFolderBackground_b1385f,
 .folder__17546 > .folderIconWrapper__72239[style="background-color: rgba(88, 101, 242, 0.4);"] {
   background-color: var(--folder-color) !important;
 }
