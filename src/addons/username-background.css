@@ -1,5 +1,5 @@
 /* Compact Mode */
-.compact__54ecc .headerText_f47574 > .username_d30d99::before {
+.compact_ec86aa .headerText_ec86aa > .username_ec86aa::before {
   content: ''; 
   width: calc(100% + 6px); 
   height: 100%;
@@ -11,12 +11,12 @@
   left: -4px;
   z-index: -1;
 }
-.compact__54ecc .headerText_f47574 > .username_d30d99::after {
+.compact_ec86aa .headerText_ec86aa > .username_ec86aa::after {
   content: ":";
 }
 
 /* Cozy Mode */
-.cozy_f5c119 .headerText_f47574 > .username_d30d99::before {
+.cozy_ec86aa .headerText_ec86aa > .username_ec86aa::before {
   content: ''; 
   width: calc(100% + 7px); 
   height: 100%;
@@ -29,10 +29,10 @@
   /* repairs left shift*/
   left: -3px;
 }
-.cozy_f5c119 .headerText_f47574 > .username_d30d99::after {
+.cozy_ec86aa .headerText_ec86aa > .username_ec86aa::after {
   content: ":";
 }
 /* repairs left shift */
-.cozy_f5c119 .headerText_f47574 > .username_d30d99 {
+.cozy_ec86aa .headerText_ec86aa > .username_ec86aa {
   margin-left: 3px;
 }
