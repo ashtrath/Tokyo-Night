@@ -3,13 +3,13 @@
 }
 
 .avatar-2Vndt_,
-.userInfo__18240 .avatar__8986c svg foreignObject, /* Friend list avatars */
-.avatar__6337f svg:not(.linkButtonIcon__2f35b) foreignObject, /* Server members avatars */
+.userInfo_f3939d .avatar_f3939d svg foreignObject, /* Friend list avatars */
+.avatar_e9f61e svg:not(.linkButtonIcon_c91bad) foreignObject, /* Server members avatars */
 .avatar-2Vndt_ foreignObject, /* User card avatar */
 .wrapper-1VLyxH svg foreignObject,
-.avatarHint__8e5b9 foreignObject,
-.container_ca50b9 .avatar_f8541f svg foreignObject, /* Status bar avatar */
-.headerAvatar__27d08 svg foreignObject, /* Active now avatars */
+.avatarHint_f89da9 foreignObject,
+.container_b2ca13 .avatar_b2ca13 svg foreignObject, /* Status bar avatar */
+.headerAvatar_cd82a7 svg foreignObject, /* Active now avatars */
 .avatar-3QF_VA svg foreignObject {
   /* Profile modal avatar */
   mask: none;
@@ -17,27 +17,27 @@
 }
 .wrapper-1VLyxH, /* user popout */
 .avatar-2Vndt_,
-.avatar__08316.clickable_d866f1, /* Chat avatar */
-.repliedMessage_e2bf4a .replyAvatar_cea07c {
+.avatar_ec86aa.clickable_ec86aa, /* Chat avatar */
+.repliedMessage_ec86aa .replyAvatar_ec86aa {
   /* Replying to avatar */
   border-radius: var(--avatar-radius);
 }
 
 /* Status Pill */
 .wrapper-1VLyxH > svg > rect,
-.avatar__6c108 > .mask-1FEkla > rect,
+.avatar_b69b77 > .mask-1FEkla > rect,
 .avatar-2Vndt_ > svg > rect,
 .avatar-3QF_VA > svg > rect,
-.listAvatar__907d4 > svg > rect {
+.listAvatar_e4be58 > svg > rect {
   rx: var(--avatar-radius);
   mask: none;
   stroke: var(--background-floating);
   stroke-width: 3px;
 }
-.avatar__6c108 > .mask-1FEkla > rect,
+.avatar_b69b77 > .mask-1FEkla > rect,
 .avatar-2Vndt_ > svg > rect,
 .avatar-3QF_VA > svg > rect,
-.listAvatar__907d4 > svg > rect {
+.listAvatar_e4be58 > svg > rect {
   width: 20px !important;
   height: 20px !important;
 }
