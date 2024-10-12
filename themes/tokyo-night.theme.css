@@ -90,7 +90,7 @@
   --scrollbar-thin-track: transparent;
   --scrollbar-auto-thumb: #2b2b46af;
   --scrollbar-auto-thumb-hover: #27273d85;
-  --scrollba-auto-track: transparent;
+  --scrollbar-auto-track: transparent;
   --scrollbar-auto-scrollbar-color-thumb: var(--scrollbar-auto-thumb);
   --scrollbar-auto-scrollbar-color-track: var(--scrollbar-auto-track);
 
